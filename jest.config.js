@@ -5,7 +5,7 @@ module.exports = {
     transform: {
       '^.+\\.[tj]sx?$': 'ts-jest',
     },
-    rootDir: "./",
+    rootDir: "./tests",
     testTimeout: 30000,
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html', 'json'],
   };
