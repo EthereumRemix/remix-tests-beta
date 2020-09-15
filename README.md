@@ -10,11 +10,12 @@ We have added a feature which provides more insights about failed tests includin
 
 ### Testing as a Remix IDE plugin
 
-* Activate the Solidity Unit Testing plugin in Remix
-* We have prepared a GIST for beta testing with hard coded values — so it won’t be importing another solidity file to test.
-* There are 2 ways of loading a gist — either go to the remix console and run: remix.loadgist(‘36306c729c9a2832f53d542fdb8ab843’) or click the GIST button in the IMPORT section of Remix’s home tab and in the modal input the gist id: 36306c729c9a2832f53d542fdb8ab843
+* Open https://remix-alpha.ethereum.org/
+* Activate the `Solidity Unit Testing` plugin
+* We have prepared a [GIST](https://gist.github.com/EthereumRemix/36306c729c9a2832f53d542fdb8ab843) for beta testing.
+* You can quickly load it — either running `remix.loadgist('36306c729c9a2832f53d542fdb8ab843')` on remix console or click the `GIST` button in the `IMPORT` section of Remix’s `Home` tab and in the modal input the gist id: `36306c729c9a2832f53d542fdb8ab843`
 * Go to the Solidity Unit Testing Plugin.
-* In the the test directory field input the GIST’s folder: browser/gists/36306c729c9a2832f53d542fdb8ab843
+* In the the test directory field input the GIST’s folder: `browser/gists/36306c729c9a2832f53d542fdb8ab843`
 * Run the test.
 
 To know more about Remix IDE `Solidity Unit Testing Plugin`, visit [Remix IDE official documentation](https://remix-ide.readthedocs.io/en/latest/unittesting.html).
