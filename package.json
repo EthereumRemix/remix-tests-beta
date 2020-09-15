@@ -19,7 +19,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "copyfiles": "cp ./package.json ./dist && cp -R ./bin ./dist",
+    "setup": "npm run build && npm run copyfiles"
   },
   "publishConfig": {
     "access": "public"
